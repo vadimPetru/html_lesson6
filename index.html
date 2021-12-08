@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/stylesheet.css">
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
   
   <title>Макет сайта</title>
@@ -36,20 +37,55 @@
 <body>
 
   <!-- Начало хидер -->
- 
-
+  <header class="header">
+  <div id ="header_inner">
+    <nav class="top_menu_right">
+      <ul>
+        <li><a href="#">Страница 1</a></li>
+        <li><a href="#">Страница 2</a></li>
+        <li><a href="#">Страница 3</a></li>
+        <li><a href="#">Страница 4</a></li>
+      </ul>
+    
+    </nav>
+    <div class="share-new">
+      <a class="icon-twitter" href="#" title="Cледить в Twitter!" target="_blank"></a>
+      <a class="icon-rss" href="#" title="Подписаться на rss" target="_blank"></a>
+      <a class="icon-email" href="#" title="Подписаться на e-mail" target="_blank"></a>
+    </div>
+    
+    <div class="logo">
+      <a href="#"><img src="images/logo.png" alt="Блог"></a>
+    </div>
       <!-- Начало #bottomMenu -->
-
-
-      <!-- конец #bottomMenu -->
-
+      <nav class="bottom_menu">
+        <ul id="dropdown_nav">
+          <li><a href="#">Категория</a></li>
+          <ul class="sub_nav">
+            <li><a href="#">Подменю #1</a></li>
+            <li><a href="#">Подменю #2</a></li>
+            <li><a href="#">Подменю #3</a></li>
+            <li><a href="#">Подменю #4</a></li>
+          </ul>
+        <li><a href="#">Категория 1</a></li>
+        <li><a href="#">Категория 2</a></li>
+        <li><a href="#">Категория 3</a></li>
+        <li><a href="#">Категория 4</a></li>
+        </ul>
+      </nav><!-- конец #bottomMenu -->
+    
+    </div>
+    
+    </header>
    <!-- Конец хидер -->
 
  
 
   <!-- начало врапер -->
-
-
+  <section id="wrapper">
+  <div id="middle">
+  <div id="content">
+  <div id="col_left"></div>
           <!-- Начало .postBox -->
         
           <!-- Конец .postBox -->
@@ -72,18 +108,20 @@
 
          
 
-        <!-- Конец коллефт -->
+  </div><!-- Конец коллефт -->
+  <aside id="col_right">
 
-      <!-- Конец колрайт -->
-      <!-- Конец контент -->
-   <!-- Конец мидл -->
-  <!-- Конец врапер -->
+  </aside><!-- Конец колрайт -->
+  </div><!-- Конец контент -->
+  </div> <!-- Конец мидл -->
+  </section><!-- Конец врапер -->
 
   <!-- Начало футер -->
-
-  <!-- Конец футериннер -->
+  <footer id="footer">
+  <div id="footer_inner">
+  </div><!-- Конец футериннер -->
  
-  <!-- Конец футер -->
+  </footer><!-- Конец футер -->
 
 </body>
 
