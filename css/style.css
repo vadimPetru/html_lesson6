@@ -198,7 +198,7 @@ a:hover{
   -moz-transform: background-color 0.3s 0.01s ease;
   -o-transform: background-color 0.3s 0.01s ease;
   -webkit-transform: background-color  0.3s 0.01s ease;
-  transform: background-color  0.3s 0.01s ease;
+
 }
 #dropdown_nav li a:hover{
   background: #000;
@@ -281,7 +281,7 @@ a:hover{
   border: 0px solid #333;
   background: #fff;
   width: 700px;
-  margin-top: 47px;
+  margin-top: 0px;
   margin-left: 0px;
   margin-bottom: 50px;
 }
@@ -289,7 +289,7 @@ a:hover{
 .post_box h2 a{
   font-family: "Segoe UI Semilight" , 'Segoe UI', Tahoma, Helvetica, Sans-Serif;
   color: #000;
-  font-size: normal;
+  font-style:normal;
   font-weight: 100;
   font-size: 33px;
   line-height: 35px;
