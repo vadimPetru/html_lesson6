@@ -94,7 +94,7 @@ a:hover{
 }
 
 .top_menu_right ul li{
-  background: url(../images/line.png) 0px 0px no-repeat;
+  background: url(images/line.png) 0px 0px no-repeat;
   float: left;
   height: 57px;
 }
@@ -134,21 +134,21 @@ a:hover{
 }
 
 .share-new .icon-twitter{
-  background: url(../images/twitter-variation.png) 0 center no-repeat;
+  background: url(images/twitter-variation.png) 0 center no-repeat;
   padding: 4px 0px 0px 5px;
   font-size: 17px;
   margin-right: 3px;
 
 }
 .share-new .icon-rss{
-  background: url(../images/rss-variation.png) 0 center no-repeat;
+  background: url(images/rss-variation.png) 0 center no-repeat;
   padding: 4px 0px 0px 5px;
   font-size: 17px;
   margin-right: 0px;
 }
 
 .share-new .icon-email{
-  background: url(../images/email-variation.png) 0 center no-repeat;
+  background: url(images/email-variation.png) 0 center no-repeat;
   padding: 4px 0px 0px 5px;
   font-size: 17px;
   margin-right: 0px;
@@ -174,7 +174,7 @@ a:hover{
   position: absolute;
   left: 0px;
   bottom: 0px;
-  background: url(../images/bgmenu.png) 0px 0px repeat-x;
+  background: url(images/bgmenu.png) 0px 0px repeat-x;
 }
 #dropdown_nav{
   font-weight: bold;
@@ -194,7 +194,7 @@ a:hover{
   font-size: 18px;
   color: #fff;
   padding: 15px 22px 20px 22px;
-  background: url(../images/linemenu.png) right no-repeat;
+  background: url(images/linemenu.png) right no-repeat;
   -moz-transform: background-color 0.3s 0.01s ease;
   -o-transform: background-color 0.3s 0.01s ease;
   -webkit-transform: background-color  0.3s 0.01s ease;
@@ -274,7 +274,7 @@ a:hover{
   width: 116px;
   height: 29px;
   margin-bottom: 50px;
-  background: url(../images/raz.png) 0px 0px no-repeat;
+  background: url(images/raz.png) 0px 0px no-repeat;
 }
 
 .post_box {
@@ -373,7 +373,7 @@ a:hover{
   top: 15px;
   width: 17px;
   height: 17px;
-  background: url(../images/search.png) 0 0 no-repeat;
+  background: url(images/search.png) 0 0 no-repeat;
   border: 0 dashed #333;
 }
 
@@ -391,7 +391,7 @@ a:hover{
 
 .right_box h2 {
   width: 340px;
-  background: #f7f7f7 url(../images/h2img.png) 320px 14px no-repeat;
+  background: #f7f7f7 url(images/h2img.png) 320px 14px no-repeat;
   font-size: 18px;
   font-family: "Segoe UI Semibold", Tahoma, Helvetica, Sans-Serif;
   color: #333;
